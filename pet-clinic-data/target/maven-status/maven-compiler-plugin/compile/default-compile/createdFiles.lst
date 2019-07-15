@@ -1,0 +1,5 @@
+com\dimitar\sfg\sfgpetclinic\model\Vet.class
+com\dimitar\sfg\sfgpetclinic\model\Owner.class
+com\dimitar\sfg\sfgpetclinic\model\PetType.class
+com\dimitar\sfg\sfgpetclinic\model\Pet.class
+com\dimitar\sfg\sfgpetclinic\model\Person.class
