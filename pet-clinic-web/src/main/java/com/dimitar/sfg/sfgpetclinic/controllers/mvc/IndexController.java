@@ -1,4 +1,4 @@
-package com.dimitar.sfg.sfgpetclinic.controllers;
+package com.dimitar.sfg.sfgpetclinic.controllers.mvc;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

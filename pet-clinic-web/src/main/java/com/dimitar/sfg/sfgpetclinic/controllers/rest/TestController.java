@@ -1,4 +1,4 @@
-package com.dimitar.sfg.sfgpetclinic.controllers;
+package com.dimitar.sfg.sfgpetclinic.controllers.rest;
 
 import com.dimitar.sfg.sfgpetclinic.model.Owner;
 import com.dimitar.sfg.sfgpetclinic.services.OwnerService;
