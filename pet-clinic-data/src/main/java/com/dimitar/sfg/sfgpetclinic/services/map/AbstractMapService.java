@@ -6,10 +6,10 @@ import com.dimitar.sfg.sfgpetclinic.services.CrudService;
 
 import java.util.*;
 
-public abstract class AbstractMapService<T extends BaseEntity<ID>, ID>
+public abstract class AbstractMapService<T extends BaseEntity<Long>, ID extends Long>
         implements CrudService<T, ID> {
 
-    protected Map<ID, T> map = new HashMap<>();
+    protected Map<Long, T> map = new HashMap<>();
 
 
     public Set<T> findAll() {
@@ -21,7 +21,12 @@ public abstract class AbstractMapService<T extends BaseEntity<ID>, ID>
     }
 
     public T save(T object) {
-        map.put(object.getId(), object);
+        if (object != null) {
+            Long id = object.getId() != null ? object.getId() : getNextId();
+            map.put(id, object);
+        } else {
+            throw new RuntimeException("Object cannot be null!");
+        }
         return object;
     }
 
@@ -31,5 +36,10 @@ public abstract class AbstractMapService<T extends BaseEntity<ID>, ID>
 
     public void delete(T object) {
         map.entrySet().removeIf( entry -> entry.getValue().equals(object));
+    }
+
+    private Long getNextId() {
+        final Long id = map.keySet().size() > 0 ?  Collections.max(map.keySet()) + 1: 1L;
+        return id;
     }
 }
