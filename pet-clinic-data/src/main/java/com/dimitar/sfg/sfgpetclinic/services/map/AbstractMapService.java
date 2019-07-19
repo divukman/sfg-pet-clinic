@@ -11,7 +11,6 @@ public abstract class AbstractMapService<T extends BaseEntity<Long>, ID extends 
 
     protected Map<Long, T> map = new HashMap<>();
 
-
     public Set<T> findAll() {
         return new HashSet<>(map.values());
     }
@@ -22,8 +21,13 @@ public abstract class AbstractMapService<T extends BaseEntity<Long>, ID extends 
 
     public T save(T object) {
         if (object != null) {
-            Long id = object.getId() != null ? object.getId() : getNextId();
-            map.put(id, object);
+
+            if (object.getId() == null) {
+                Long id = object.getId() != null ? object.getId() : getNextId();
+                object.setId(id);
+            }
+
+            map.put(object.getId(), object);
         } else {
             throw new RuntimeException("Object cannot be null!");
         }
