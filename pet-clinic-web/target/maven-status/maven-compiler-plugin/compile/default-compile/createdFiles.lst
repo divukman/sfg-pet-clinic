@@ -1,1 +1,8 @@
+com\dimitar\sfg\sfgpetclinic\controllers\mvc\IndexController.class
+com\dimitar\sfg\sfgpetclinic\bootstrap\DataLoader.class
+com\dimitar\sfg\sfgpetclinic\controllers\mvc\OwnerController.class
 com\dimitar\sfg\sfgpetclinic\SfgPetClinicApplication.class
+com\dimitar\sfg\sfgpetclinic\controllers\rest\VetRestController.class
+com\dimitar\sfg\sfgpetclinic\controllers\rest\TestController.class
+com\dimitar\sfg\sfgpetclinic\controllers\rest\OwnerRestController.class
+com\dimitar\sfg\sfgpetclinic\controllers\mvc\VetController.class
