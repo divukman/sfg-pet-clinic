@@ -1,7 +1,9 @@
+com\dimitar\sfg\sfgpetclinic\model\Speciality.class
 com\dimitar\sfg\sfgpetclinic\services\map\VetServiceMap.class
 com\dimitar\sfg\sfgpetclinic\services\VetService.class
 com\dimitar\sfg\sfgpetclinic\model\Pet.class
 com\dimitar\sfg\sfgpetclinic\services\map\PetServiceMap.class
+com\dimitar\sfg\sfgpetclinic\services\map\SpecialitieServicesMap.class
 com\dimitar\sfg\sfgpetclinic\services\PersonService.class
 com\dimitar\sfg\sfgpetclinic\model\Vet.class
 com\dimitar\sfg\sfgpetclinic\services\OwnerService.class
@@ -9,9 +11,12 @@ com\dimitar\sfg\sfgpetclinic\services\map\AbstractMapService.class
 com\dimitar\sfg\sfgpetclinic\services\PetService.class
 com\dimitar\sfg\sfgpetclinic\services\map\OwnerServiceMap.class
 com\dimitar\sfg\sfgpetclinic\services\CrudService.class
+com\dimitar\sfg\sfgpetclinic\services\SpecialitiesService.class
 com\dimitar\sfg\sfgpetclinic\model\BaseEntity.class
 com\dimitar\sfg\sfgpetclinic\model\Owner.class
 com\dimitar\sfg\sfgpetclinic\model\PetType.class
+com\dimitar\sfg\sfgpetclinic\services\PetTypeService.class
 com\dimitar\sfg\sfgpetclinic\model\Person.class
+com\dimitar\sfg\sfgpetclinic\model\Visit.class
 com\dimitar\sfg\sfgpetclinic\services\map\PersonServiceMap.class
 com\dimitar\sfg\sfgpetclinic\services\map\PetTypeServiceMap.class

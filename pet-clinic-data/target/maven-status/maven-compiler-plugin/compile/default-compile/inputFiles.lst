@@ -1,9 +1,12 @@
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\CrudService.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\map\VetServiceMap.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\Owner.java
+C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\PetTypeService.java
+C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\Visit.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\map\AbstractMapService.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\Person.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\map\OwnerServiceMap.java
+C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\map\SpecialitieServicesMap.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\map\PersonServiceMap.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\BaseEntity.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\PetType.java
@@ -12,6 +15,8 @@ C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\jav
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\PetService.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\map\PetTypeServiceMap.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\OwnerService.java
+C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\Speciality.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\Pet.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\PersonService.java
 C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\model\Vet.java
+C:\Users\Dimitar\Desktop\SPRING_GURU\sfg-pet-clinic\pet-clinic-data\src\main\java\com\dimitar\sfg\sfgpetclinic\services\SpecialitiesService.java
