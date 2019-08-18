@@ -1,11 +1,15 @@
 package com.dimitar.sfg.sfgpetclinic.model;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import javax.persistence.*;
 import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
 
-@Data
+@Getter
+@Setter
 @Entity
 @Table(name = "pets")
 public class Pet extends BaseEntity<Long> {
@@ -23,5 +27,8 @@ public class Pet extends BaseEntity<Long> {
 
     @Column(name="birth_date")
     private LocalDate birthDate;
+
+    @OneToMany(cascade = CascadeType.ALL, mappedBy = "pet")
+    private Set<Visit> visits = new HashSet<Visit>();
 
 }
