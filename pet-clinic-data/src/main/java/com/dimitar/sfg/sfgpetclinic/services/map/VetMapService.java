@@ -4,9 +4,11 @@ import com.dimitar.sfg.sfgpetclinic.model.Vet;
 import com.dimitar.sfg.sfgpetclinic.services.SpecialitiesService;
 import com.dimitar.sfg.sfgpetclinic.services.VetService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 @Service
+@Profile({"default", "map"})
 public class VetMapService extends AbstractMapService<Vet, Long> implements VetService {
     private final SpecialitiesService specialitiesService;
 

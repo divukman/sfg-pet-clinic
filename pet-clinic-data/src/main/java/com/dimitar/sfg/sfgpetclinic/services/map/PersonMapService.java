@@ -1,6 +1,7 @@
 package com.dimitar.sfg.sfgpetclinic.services.map;
 
 import com.dimitar.sfg.sfgpetclinic.model.Person;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 /**
@@ -8,6 +9,7 @@ import org.springframework.stereotype.Service;
  * @todo delete later
  */
 @Service
+@Profile({"default", "map"})
 @Deprecated
 public class PersonMapService extends AbstractMapService<Person, Long> {
 }
