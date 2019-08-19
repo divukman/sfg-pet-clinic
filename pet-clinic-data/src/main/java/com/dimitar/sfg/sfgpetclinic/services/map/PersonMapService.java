@@ -9,5 +9,5 @@ import org.springframework.stereotype.Service;
  */
 @Service
 @Deprecated
-public class PersonServiceMap extends AbstractMapService<Person, Long> {
+public class PersonMapService extends AbstractMapService<Person, Long> {
 }

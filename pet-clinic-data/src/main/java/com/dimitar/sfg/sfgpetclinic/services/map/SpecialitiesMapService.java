@@ -5,5 +5,5 @@ import com.dimitar.sfg.sfgpetclinic.services.SpecialitiesService;
 import org.springframework.stereotype.Service;
 
 @Service
-public class SpecialitieServicesMap extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
+public class SpecialitiesMapService extends AbstractMapService<Speciality, Long> implements SpecialitiesService {
 }
